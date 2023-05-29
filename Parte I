@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+        color: white;
+        background-color: rgb(28, 19, 82);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 50px 50px 50px;
+    }
+    
+    .message-left {
+      background-color: #3c216d;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      max-width: 80%;
+    }
+    
+    .message-right {
+      background-color: #2d0774;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      max-width: 80%;
+    }
+    .back{
+        background-color: darkslateblue;
+        font-weight: bold;
+        border: solid 50px rgb(28, 19, 82);
+    }
+  </style>
+</head>
+<body>
+    <header style="background-color: mediumslateblue;padding: 10px 10px 10px 10px;"><h1>XENOFOBIA</h1></header>
+    <div class="back">
+    <h3 style="background-color: rgb(16, 11, 48);padding: 20px 20px 20px 20px; ">🟣 Diálogo</h3>
+    <div class="container">
+        <div class="message-left">
+        <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong> Boa tarde vizinho, sei que se mudou recentemente pra casa ao lado, <br>peguei seu número no grupo de WhatsApp do condomínio e resolvi te chamar pra gente bater um papo kk</p>
+        </div>
+
+        <div class="message-right">
+        <p><strong style="color:darkorchid;">Pessoa contra:</strong> Boa tarde amigo,  sim, me mudei há pouco tempo do Ceará pra cá</p>
+        </div>
+
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong> Ah sim, eu percebi que você era meio diferente mesmo</p>
+            </div>
+
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong> Como assim diferente?</p>
+            </div>
+        
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong>Você tem um jeito de falar engraçado,  parece que tá sempre cantando né</p>
+            </div>  
+            
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong> É só meu jeito de falar mesmo</p>
+            </div>
+
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong>Nossa, mas você não tem problemas com isso não? Tipo, as pessoas conseguem entender o que você fala?</p>
+            </div> 
+            
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong>Claro! Eu falo português normal, só tenho um pouco de sotaque</p>
+            </div>
+
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong>Eu por exemplo não entendo muito o que o povo do nordeste fala sabe, mas sem ofensa </p>
+            </div> 
+
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong>Ok</p>
+            </div>
+
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong> Tipo, claro, não é a única diferença,  vocês também tem uma cultura tão diferente, parece outro país kk, lá também tem muita pobreza né,  vocês sofrem muito com falta de água,  ainda bem que você conseguiu sair de lá e vim pra SP, deve ter sofrido um grande choque cultural né,  quando viu esse tanto de prédio,  está conseguindo se adaptar bem aqui na cidade?</p>
+            </div>
+            
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong>Calma, não é assim também,  onde eu morava lá não tinha seca e tinha muitos prédios também, quanto a diferença estou me adaptando bem, obrigado, mas acho que você está sendo um pouco xenofobico</p>
+            </div>
+
+        <div class="message-left">
+            <p><strong style="color:rgb(212, 135, 250);">Pessoa a favor:</strong> Não é isso, eu acho que o ser humano tem por natureza ter uma certa aversão ao diferente/desconhecido e não acho que isso seja algo ruim, é apenas nosso instinto de auto proteção, entende?</p>
+            </div>
+
+        <div class="message-right">
+            <p><strong style="color:darkorchid;">Pessoa contra:</strong>Blz mas ao invéz de alimentar o medo e a desconfiança, nós não deveriamos encorajar a inclusão e a compreensão mútua? Pois a diversidade cultural enriquece nossa sociedade e nos permite mudar nossa maneira de pensar, a xenofobia só serve pra discriminar e diminuir o diferente,  não traz nenhum beneficio a sociedade</p>
+            </div>
+    
+    </div>
+    </div>  
+</body>
+</html>
