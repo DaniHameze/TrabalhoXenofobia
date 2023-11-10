@@ -1,0 +1,217 @@
+  body{
+    background-color: #e87624;
+    background-image: url(https://i.pinimg.com/originals/f6/fe/01/f6fe01bc451088065d21ddb805ed1a9e.gif);
+    background-size: 150%;
+    font-family: fantasy;
+    color: #330708;
+    font-size: 21px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .but{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #330708;
+    border: none;
+    color: #e84624;
+    text-align: center;
+    font-size: 28px;
+    padding: 30px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Consolas, monaco, monospace;
+  }
+
+  .button span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* novo */
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/025/717/028/non_2x/desert-landscape-illustration-canyon-desert-landscape-with-cactus-ridge-and-sunset-sky-american-desert-silhouette-landscape-for-background-wallpaper-display-or-landing-page-vector.jpg);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+.overlay-content {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+}
+
+/*NOVO 2*/
+  input{
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 20px;
+    border: 5px solid transparent;
+    background: linear-gradient(90deg, rgba(180,166,58,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: border-glow 1s infinite alternate;
+    box-shadow: 0 0 10px 5px #ede574;
+  }
+
+  @keyframes border-glow {
+    0% {
+        border-color: transparent;
+    }
+    100% {
+        border-color:#ede574;
+    }
+}
+
+  #word-display {
+    font-size: 90px;
+    margin: 20px;
+  }
+  
+  #guess-input {
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 30px;
+  }
+  
+  #guess-button {
+    padding: 5px 10px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-left: 5px;
+  }
+  
+  #guess-button:hover {
+    background-color: #f77014;
+    opacity: 0.7;
+  }
+
+  #reset-button {
+    padding: 5px 10px;
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+  }
+  
+  #reset-button:hover {
+    background-color: #f77014;
+    opacity: 0.7;
+  }
+
+  #guess-word {
+    cursor: pointer;
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 30px;
+  }
+
+ #word-button {
+    padding: 5px 10px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px black;
+    margin-right: 35px;
+    margin-left: 5px;
+}
+
+#word-button:hover {
+  background-color: #f77014;
+  opacity: 0.7;
+}
+
+.inter{
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  bottom: 0%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0.8;
+  }
+  
+  ::placeholder{
+    color: black;
+  }
+
+  #pic{
+    background-image: url("../img/forca.png");
+    width: 234px;
+    height: 272px;
+    background-repeat: no-repeat;
+}
+
