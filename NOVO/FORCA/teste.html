@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--DICA-->
+    <h1><img src="https://fontmeme.com/permalink/231107/a7030ea1601480f4f471fd5fbacb38f3.png" alt="fontes-pixeladas" border="0"></a></h1>
+    <!--JOGAR-->
+    <div class="but">
+        <p>Bem vindo!! clique abaixo para jogar</p>
+            <button class="button" style="vertical-align:middle">
+                <span onclick="openNav()">
+                    <a><img src="https://fontmeme.com/permalink/231107/9586a5f5bc2ca5ba077067ef0599cc8d.png" alt="fontes-pixeladas" border="0">
+                </span>
+            </button>
+    </div>
+    <!--NOVA ABA-->
+    <div id="myNav" class="overlay">
+        <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <h2 class="dica"><a href="https://fontmeme.com/pt/fontes-pixeladas/"><img src="https://fontmeme.com/permalink/231109/8610adc075152c9d387a96356917b7ce.png" alt="fontes-pixeladas" border="0"></a></h2>
+        <!--FORCA-->
+                <div id="pic"></div>      
+                <div id="word-display"></div>
+                <div id="guesses-left">Tentativas restantes: <span id="remaining-attempts">6</span></div>
+                <div id="letters-guessed">Letras já usadas: <span id="guessed-letters"></span></div>
+                <br>
+                <div class="inter">
+                    <div class="letra">
+                        <input type="text" id="guess-input" placeholder="Tentar uma letra:" maxlength="1">
+                        <button id="guess-button">ENVIAR</button>
+                    </div>
+                    <br>
+                    <div id="palavra">
+                        <input type="text" id="guess-word" placeholder="Adivinhar a palavra:"><button onclick="guessWord()" id="word-button">ENVIAR</button>
+                      </div>
+                </div>
+                <p><button id="reset-button">Reiniciar Jogo</button></p>
+            </div>
+          </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
